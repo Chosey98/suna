@@ -91,7 +91,7 @@ services:
                 - NEXT_PUBLIC_GOOGLE_CLIENT_ID=${NEXT_PUBLIC_GOOGLE_CLIENT_ID}
                 - NEXT_PUBLIC_TOLT_REFERRAL_ID=${NEXT_PUBLIC_TOLT_REFERRAL_ID}
         ports:
-            - '3000:3000'
+            - '3000'
         volumes:
             - ./frontend/.env.local:/app/.env.local:ro
         environment:
